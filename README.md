@@ -20,7 +20,7 @@ All GCP resources (GKE, Cloud Build Trigger, and Cloud Run) were created via the
   8. Cloud Run service configured (optional for testing).
   9. Added Configuration Files
   10. cloudbuild.yaml: Defines build and deploy steps.
-  11 gke.yaml: Contains Kubernetes Deployment and Service specs.
+  11. gke.yaml: Contains Kubernetes Deployment and Service specs.
   12. Automated Deployment
   13. On every code push, Cloud Build:
   14. Builds and pushes Docker image to GCR
